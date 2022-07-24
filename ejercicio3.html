@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 - ejercicio 3</title>
+</head>
+<body>
+   <script>
+    //Dado un vector de números, escribe un programa que te devuelva por consola el total de números impares y el total de números mayores que 100
+    let n = [2, 5, 101, 4, 83, 206];
+    console.log(n);
+    let numImpares = 0;
+    let mayorCien = 0;
+    n.forEach(function(elemento, indice, array) {
+        console.log(`Comprobando el número ${elemento}`);
+        if(elemento %2 !=0) {
+            console.log(`El número ${elemento} es impar`);
+            numImpares++;
+        }
+        if(elemento > 100) {
+            console.log(`El número ${elemento} es mayor que 100`);
+            mayorCien++;
+        }
+    })
+    console.log(`El total de números impares es ${numImpares}`);
+    console.log(`El total de números mayores que cien es ${mayorCien}`);
+   </script> 
+</body>
+</html>
