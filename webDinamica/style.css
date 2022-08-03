@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+	--font1: 'Poppins', sans-serif;
+}
+
+* {
+	margin: 0px;
+	padding:0px;
+}
+
+html, body {
+	min-height: 50vh;
+	background: rgba(0, 0, 0, 0.3) url('imgTarea1/sky2.jpg') center fixed;
+	background-blend-mode: multiply;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+header, section, footer {
+	width: 80vw;
+	display: block;
+	height: auto;
+	margin: auto;
+}
+
+header {
+	background-color: #030328;
+	color: white;
+	text-align: center;
+	padding: 90px 0;
+	font-family: var(--font1);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+	padding-top: 5px;
+}
+
+section {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	background-color: #f5f5f7e1;
+}
+
+p{
+	font: normal 1.4em Arial;
+	line-height: 1.6;
+	text-align: justify;
+	padding: 0 20% 5%;
+}
+
+img {
+	width: 50vw;
+	height: auto;
+	margin: auto;
+	display: block;
+	box-shadow: 12px 12px 7px #6c757d;
+}
+
+#image {
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+footer {
+	background-color: #030328;
+	color: white;
+	height: 60px;
+	padding-top: 20px;
+}
+
+footer > p {
+	font: 400 1em Arial;
+}
+
+footer a {
+	color: whitesmoke;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
